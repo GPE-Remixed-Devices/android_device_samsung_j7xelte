@@ -1,4 +1,4 @@
-Common device configuration for the Samsung Galaxy J7 (2016).
+Specific device configuration for the Samsung Galaxy J7 (2016).
 ==========================================
 
 Copyright Licence: Apache V2 
