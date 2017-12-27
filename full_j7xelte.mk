@@ -13,6 +13,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
+# Inherit from those products. Most specific first.
+$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from j7xelte device
 $(call inherit-product, device/samsung/j7xelte/device.mk)
@@ -20,5 +22,8 @@ $(call inherit-product, device/samsung/j7xelte/device.mk)
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := j7xelte
 PRODUCT_NAME := full_j7xelte
+PRODUCT_BRAND := samsung
+PRODUCT_MODEL := j7xelte
+PRODUCT_MANUFACTURER := samsung
 
 $(call inherit-product-if-exists, vendor/samsung/j7xelte/j7xelte-vendor.mk)
