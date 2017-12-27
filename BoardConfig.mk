@@ -60,7 +60,7 @@ TARGET_USES_UNCOMPRESSED_KERNEL := true
 
 # Kernel config
 TARGET_KERNEL_SOURCE := kernel/samsung/j7xelte
-TARGET_KERNEL_CONFIG := lineage_on7xelte_defconfig
+TARGET_KERNEL_CONFIG := lineage-on7xelte_defconfig
 BOARD_CUSTOM_BOOTIMG_MK := hardware/samsung/mkbootimg.mk
 
 # Partitions
