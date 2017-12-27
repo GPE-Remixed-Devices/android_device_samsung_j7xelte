@@ -159,7 +159,7 @@ BOARD_PROVIDES_LIBRIL := true
 SIM_COUNT := 2
 
 # RIL.java overwrite
-BOARD_RIL_CLASS := ../../../$(LOCAL_PATH)/ril
+#BOARD_RIL_CLASS := ../../../$(LOCAL_PATH)/ril
 
 # Release tools
 TARGET_RELEASETOOLS_EXTENSIONS := $(LOCAL_PATH)
@@ -192,4 +192,4 @@ BOARD_SECCOMP_POLICY += $(LOCAL_PATH)/seccomp
 BOARD_SEPOLICY_DIRS := $(LOCAL_PATH)/sepolicy
 
 # Inherit from the proprietary version
--include vendor/samsung/gtaxllte/BoardConfigVendor.mk
+-include vendor/samsung/j7xelte/BoardConfigVendor.mk
