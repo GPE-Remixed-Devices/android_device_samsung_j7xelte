@@ -189,7 +189,7 @@ endif
 BOARD_SECCOMP_POLICY += $(LOCAL_PATH)/seccomp
 
 # SELinux
-BOARD_SEPOLICY_DIRS := $(LOCAL_PATH)/sepolicy
+#BOARD_SEPOLICY_DIRS := $(LOCAL_PATH)/sepolicy
 
 # Inherit from the proprietary version
 -include vendor/samsung/j7xelte/BoardConfigVendor.mk
