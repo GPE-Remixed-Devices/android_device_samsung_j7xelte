@@ -131,7 +131,7 @@
             64 - Volume rocker
          For example, a device with Home, Back and Menu keys would set this
          config to 7. -->
-    <integer name="config_deviceHardwareWakeKeys">65</integer>
+    <!-- <integer name="config_deviceHardwareWakeKeys">65</integer> -->
 
     <!-- Control the behavior when the user long presses the home button.
             0 - Nothing
@@ -235,9 +235,6 @@
     <!-- Our gralloc has support for protected buffers -->
     <bool name="config_wifiDisplaySupportsProtectedBuffers">true</bool>
 
-    <!-- The device supports freeform window management -->
-    <bool name="config_freeformWindowManagement">true</bool>
-
     <!-- Hide this setting because we are forcing it to be enabled in build.prop.
          Note: This is declared in both values/config.xml and values-sw600dp/config.xml.
                It is actually the latter definition that wins but overlay both
@@ -258,7 +255,7 @@
     <integer name="config_overrideHasPermanentMenuKey">2</integer>
 
     <!-- Enable blur support -->
-    <bool name="config_uiBlurEnabled">true</bool>
+    <!-- <bool name="config_uiBlurEnabled">true</bool> -->
 
 <!-- Indicate whether the SD card is accessible without removing the battery. -->
     <bool name="config_batterySdCardAccessibility">true</bool>
